@@ -79,6 +79,7 @@ void *value;
 while (htg_iter_next(&it, &key, &value)) {
     // process key and value
 }
+'''c
 This allows traversal without exposing internal bucket or node structures.
 
 ---
