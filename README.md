@@ -81,7 +81,9 @@ while (htg_iter_next(&it, &key, &value)) {
 }
 This allows traversal without exposing internal bucket or node structures.
 
-🧪 Testing
+---
+
+## 🧪 Testing
 
 Each data structure has its own test program using assert():
  test_dynamic_array
@@ -97,7 +99,9 @@ Tests cover:
  Error handling
  Destructor correctness (for generic hash table)
 
-🔧 Build & Run
+---
+
+## 🔧 Build & Run
 
 Build all tests
 make clean
@@ -116,7 +120,9 @@ All builds are compiled with:
  -Wall -Wextra
 to catch memory and undefined behavior bugs early.
 
-🗂 Project Structure
+---
+
+## 🗂 Project Structure
 
 libds/
 ├─ include/   # Public API headers
@@ -125,7 +131,9 @@ libds/
 ├─ Makefile
 └─ README.md
 
-🚀 Future Work
+---
+
+## 🚀 Future Work
 
 Planned or possible extensions:
  Open addressing hash table (linear / quadratic probing)
@@ -133,7 +141,9 @@ Planned or possible extensions:
  Generic containers with custom allocator support
  Using this library as a backend for small ML/AI experiments
 
-📌 What I Learned
+---
+
+## 📌 What I Learned
 
 Through this project, I practiced:
  Manual heap management and lifetime control
