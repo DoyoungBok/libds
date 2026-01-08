@@ -1,0 +1,14 @@
+# Build artifacts
+*.o
+test_dynamic_array
+test_linked_list
+test_stack
+test_queue
+test_hash_table
+test_hash_table_generic
+
+# macOS debug symbols
+*.dSYM/
+
+# macOS system files
+.DS_Store
