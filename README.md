@@ -88,38 +88,42 @@ This allows traversal without exposing internal bucket or node structures.
 ## 🧪 Testing
 
 Each data structure has its own test program using assert():
- test_dynamic_array
- test_linked_list
- test_stack
- test_queue
- test_hash_table
- test_hash_table_generic
+ - test_dynamic_array
+ - test_linked_list
+ - test_stack
+ - test_queue
+ - test_hash_table
+ - test_hash_table_generic
 
 Tests cover:
- Normal usage
- Boundary cases
- Error handling
- Destructor correctness (for generic hash table)
+ - Normal usage
+ - Boundary cases
+ - Error handling
+ - Destructor correctness (for generic hash table)
 
 ---
 
 ## 🔧 Build & Run
 
 Build all tests
+```c
 make clean
 make
+```
 
 Run individual tests
+```c
 ./test_dynamic_array
 ./test_linked_list
 ./test_stack
 ./test_queue
 ./test_hash_table
 ./test_hash_table_generic
+```
 
 All builds are compiled with:
- -fsanitize=address,undefined
- -Wall -Wextra
+ - fsanitize=address,undefined
+ - Wall -Wextra
 to catch memory and undefined behavior bugs early.
 
 ---
