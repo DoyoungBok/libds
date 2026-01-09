@@ -126,12 +126,14 @@ to catch memory and undefined behavior bugs early.
 
 ## 🗂 Project Structure
 
+```c
 libds/
 ├─ include/   # Public API headers
 ├─ src/       # Implementations
 ├─ tests/     # Unit tests
 ├─ Makefile
 └─ README.md
+```
 
 ---
 
