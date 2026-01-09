@@ -138,20 +138,20 @@ libds/
 ## 🚀 Future Work
 
 Planned or possible extensions:
- Open addressing hash table (linear / quadratic probing)
- Circular buffer implementation for O(1) queue operations
- Generic containers with custom allocator support
- Using this library as a backend for small ML/AI experiments
+ - Open addressing hash table (linear / quadratic probing)
+ - Circular buffer implementation for O(1) queue operations
+ - Generic containers with custom allocator support
+ - Using this library as a backend for small ML/AI experiments
 
 ---
 
 ## 📌 What I Learned
 
 Through this project, I practiced:
- Manual heap management and lifetime control
- Pointer-based data structure implementation
- Designing stable and safe C APIs
- Writing defensive code with explicit error handling
- Testing memory safety using sanitizers
- Structuring multi-file C projects with Makefiles
- This project serves as a foundation for more advanced systems and ML-related projects.
+ - Manual heap management and lifetime control
+ - Pointer-based data structure implementation
+ - Designing stable and safe C APIs
+ - Writing defensive code with explicit error handling
+ - Testing memory safety using sanitizers
+ - Structuring multi-file C projects with Makefiles
+ - This project serves as a foundation for more advanced systems and ML-related projects.
